@@ -8,7 +8,7 @@ To be complete soon...
 
 ![StarterBoardPic18F-20pins - Unfinished 2](https://github.com/user-attachments/assets/e957e321-1d1a-4923-88d6-1305619e9b0d)
 
-
+<br/>
 
 ## Create MPLABX Project
 
