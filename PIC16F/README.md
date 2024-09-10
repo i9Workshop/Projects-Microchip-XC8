@@ -3,8 +3,14 @@
 Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/pic16f1783) of PIC16F(L)1782/3.<br/>
 <br/>
 
-## 1.  Clock Configuration
+## 1.  Device and Clock Configuration
 
-*  Page 53-70.
+*  Datasheet page 39-70.
+<br/>
+
+*  Configure register
+  *  CONFIG1 - Page 40
+  *  OSCCON - Page 68
+
 <br/>
 
