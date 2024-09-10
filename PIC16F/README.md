@@ -8,9 +8,8 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 *  Datasheet page 39-70.
 <br/>
 
-*  Configure register_
+*  Configure register<br/>
     - ONFIG1 - Page 40
     - OSCCON - Page 68
 
 <br/>
-
