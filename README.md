@@ -32,7 +32,7 @@ To be complete soon...
 ![MPLABX-SelectCompiler](https://github.com/user-attachments/assets/2a6ccd8c-bded-4d3b-b273-336acda9f1a5)
 <br/>
 
-6.  Type in project paths and project name.<br/>
+6.  Type in project path and project name.<br/>
 ![MPLABX-SelectProjectPathAndTypeProjectName](https://github.com/user-attachments/assets/d8076379-4e76-4cc9-b2c3-818d7c383f97)
 <br/>
 
