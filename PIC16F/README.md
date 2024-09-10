@@ -5,4 +5,6 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 
 ## 1.  Clock Configuration
 
+*  Page 53-70.
+<br/>
 
