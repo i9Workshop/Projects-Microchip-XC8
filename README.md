@@ -11,4 +11,4 @@ To be complete soon...
 
 # Create MPLABX Project
 
-![MPLABX-CreateNewProject](https://github.com/user-attachments/assets/8c65dd57-54c3-45ad-ab82-cbb893c98373)
+![MPLABX-CreateNewProject](https://github.com/user-attachments/assets/2cca417a-a1d6-414c-a53a-14da25fad43e)
