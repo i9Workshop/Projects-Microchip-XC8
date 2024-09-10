@@ -39,4 +39,9 @@ To be complete soon...
 7.  Create c file.<br/>
 ![MPLABX-CreateCfile](https://github.com/user-attachments/assets/58a4bcf4-0438-4892-ba84-d0eb92e45cfb)
 <br/>
+
+8.  Project ready.<br/>
+![MPLABX-ProjectReady](https://github.com/user-attachments/assets/c0b7f01b-b76a-4e31-8ed1-c7734a2006d7)
+<br/>
+
 <br/>
