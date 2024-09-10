@@ -1,8 +1,8 @@
 # Projects-Microchip-XC8
 
-## MCU Starter Board
-
 Projects for PIC16F and PIC18F
+
+## MCU Starter Board
 
 To be complete soon...
 
