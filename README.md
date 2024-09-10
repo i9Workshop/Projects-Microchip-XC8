@@ -12,4 +12,4 @@ To be complete soon...
 
 ## Create MPLABX Project
 
-![MPLABX-CreateNewProject](https://github.com/user-attachments/assets/2cca417a-a1d6-414c-a53a-14da25fad43e)
+![MPLABX-CreateCfile](https://github.com/user-attachments/assets/c5111e5e-80d0-4e9b-93e9-c1795b714865)
