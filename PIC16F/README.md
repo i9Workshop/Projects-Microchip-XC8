@@ -5,8 +5,11 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 
 ## 1.  Device and Clock Configuration
 
-*  Datasheet page 39-70.
-*  Configure register.
+* Hardware selection.
+    - Crystal oscillator : 8MHz
+
+* Datasheet page 39-70.
+* Configure register.
     - CONFIG1 - Page 40
     - CONFIG1 - Page 42
     - OSCCON - Page 68
