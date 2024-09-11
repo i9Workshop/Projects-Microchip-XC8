@@ -61,25 +61,25 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 <br/>
 
 ```
-void program_Delay_x1p5us(uint8_t delay);
-void program_Delay_x24p25us(uint16_t delay);
-void program_Delay_ms(uint32_t delay);
+void delay_x1p5us(uint8_t delay);
+void delay_x24p25us(uint16_t delay);
+void delay_ms(uint32_t delay);
 ```
 
 ```
 // Delay x1.5us
-void program_Delay_x1p5us(uint8_t delay) {
+void delay_x1p5us(uint8_t delay) {
     for(uint8_t i=0; i<delay; i++) NOP();
 }
 
 // Delay x24.25us
-void program_Delay_x24p25us(uint16_t delay) {
-    for(uint16_t i=0; i<delay; i++) program_Delay_x1p5us(15);
+void delay_x24p25us(uint16_t delay) {
+    for(uint16_t i=0; i<delay; i++) delay_x1p5us(15);
 }
 
 // Delay x1ms
-void program_Delay_ms(uint32_t delay) {
-    for(uint32_t i=0; i<delay; i++) program_Delay_x24p25us(41);
+void delay_ms(uint32_t delay) {
+    for(uint32_t i=0; i<delay; i++) delay_x24p25us(41);
 }
 ```
 <br/>
