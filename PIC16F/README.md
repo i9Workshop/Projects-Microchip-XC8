@@ -9,7 +9,12 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
     - Crystal oscillator : 8MHz
 <br/>
 
-* Configure register.
+* Set PIC configuration.
+  - FOSC to use high-speed oscillator, HS
+  - PLLEN to use PLL x4
+<br/>
+
+* Refer datasheet to configure register.
     - CONFIG1 - Page 40
     - CONFIG1 - Page 42
 
