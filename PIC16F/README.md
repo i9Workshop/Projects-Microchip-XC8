@@ -50,14 +50,14 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
     - NOP( ) use 4 clock cycle which is
       >1/32Mhz x 4 = 0.125us.
       
-    - A loop by using 8bits variable in for loop use about C clock cycle which is
-      >1/32Mhz x C = Xus.
+    - A loop by using 8bits variable in for loop use about 44 clock cycle which is
+      >1/32Mhz x 44 = 1.375us.
       
-    - A loop by using 16bits variable in for loop use about D clock cycle which is
-      >1/32Mhz x D = Yus.
+    - A loop by using 16bits variable in for loop use about 52 clock cycle which is
+      >1/32Mhz x 52 = 1.625us.
       
-    - A loop by using 32bits variable in for loop use about E clock cycle which is
-      >1/32Mhz x D = Zus.
+    - A loop by using 32bits variable in for loop use about 100 clock cycle which is
+      >1/32Mhz x 100 = 3.125us.
 <br/>
 
 ```
