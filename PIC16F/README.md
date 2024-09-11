@@ -63,7 +63,7 @@ void program_Delay_10us(void);
 void program_Delay(uint16_t delay);
 void program_Delay_ms(uint16_t delay);
 ```
-<br/>
+
 ```
 void program_Delay_10us(void) {
     for(uint8_t i=0; i<10; i++) NOP();
