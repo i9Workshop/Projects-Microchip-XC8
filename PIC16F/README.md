@@ -48,7 +48,9 @@ and mid-range mcu [instruction set](https://developerhelp.microchip.com/xwiki/bi
 <br/>
 
 * Use NOP( ) instruction in for loop instruction for predictable desired delay duration.
-    - NOP( ) use 4 clock cycle which is
+    - 1 instruction cycle use 4 clock cycle;
+      
+    - NOP( ) use 1 instruction cycle thus 4 clock cycle is used therefor
       >1/32Mhz x 4 = 0.125us.
       
     - A loop by using 8bits variable in for loop use about 44 clock cycle which is
