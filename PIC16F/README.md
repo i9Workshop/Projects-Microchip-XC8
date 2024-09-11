@@ -15,6 +15,7 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
   - Refer datasheet to configure register.
     - CONFIG1 - Page 40
     - CONFIG1 - Page 42
+<br/>
 
 ```
 // Register CONFIG1
@@ -57,7 +58,8 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
       
     - A loop by using 32bits variable in for loop use about E clock cycle which is
       >1/32Mhz x D = Zus.
-      
+<br/>
+
 ```
 void program_Delay_10us(void);
 void program_Delay(uint16_t delay);
