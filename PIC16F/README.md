@@ -11,10 +11,15 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
     - OSCCON - Page 68
 
 ```
-#include <xc.h>
-
-void main(void) {
-    
-}
+#pragma config FCMEN = OFF        // Fail-safe clock monitor -> disable
+#pragma config IESO = OFF         // Internal/External switchover -> disable
+#pragma config CLKOUTEN = ON      // CLKOUT, clock out function on pin -> enable
+#pragma config BOREN = OFF        // Brown-out reset -> enable
+#pragma config CPD = OFF          // Data memory code protection -> disabled
+#pragma config CP = OFF           // Flash program memory code protection -> disabled
+#pragma config MCLRE = ON         // MCLR, master clear function on pin -> enable
+#pragma config PWRTE = OFF        // Power-up timer -> disabled
+#pragma config WDTE = OFF         // Watchdog timer -> disabled
+#pragma config FOSC = HS          // Oscillator selection -> HS, High-speed crystal/resonator connected between OSC1 and OSC2 pins
 ```
 <br/>
