@@ -10,8 +10,8 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 <br/>
 
 * Set PIC configuration.
-  - Set FOSC to use high-speed oscillator, HS.
-  - Set PLLEN to use PLL x4.
+  - FOSC use high-speed oscillator, HS.
+  - PLLEN use PLL x4.
   - Refer datasheet to configure register.
     - CONFIG1 - Page 40
     - CONFIG1 - Page 42
