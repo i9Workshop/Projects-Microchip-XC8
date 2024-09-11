@@ -65,14 +65,17 @@ void program_Delay_ms(uint32_t delay);
 ```
 
 ```
+// Delay 10us
 void program_Delay_10us(void) {
     for(uint8_t i=0; i<10; i++) NOP();
 }
 
+// Delay x10us
 void program_Delay(uint16_t delay) {
     for(uint16_t i=0; i<delay; i++) program_Delay_10us();
 }
 
+// Delay x1ms
 void program_Delay_ms(uint32_t delay) {
     for(uint32_t i=0; i<delay; i++) program_Delay(100);
 }
