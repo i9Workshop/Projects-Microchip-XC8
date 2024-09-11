@@ -1,7 +1,7 @@
 # LED Blink
 <br/>
 
-## Initialize GPIO
+## Initialize Peripheral
 <br/>
 
 ## Loop Program
