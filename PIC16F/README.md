@@ -53,7 +53,7 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
     - Total duration for a loop is
       >0.125us + Dus = Eus.
 ```
-void programDelay(uint32_t delay) {
+void program_Delay(uint32_t delay) {
     uint32_t i;
     
     for(i=0; i<delay; i++) NOP();
