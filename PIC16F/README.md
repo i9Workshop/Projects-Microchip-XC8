@@ -53,33 +53,33 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
     - A loop by using 8bits variable in for loop use about 44 clock cycle which is
       >1/32Mhz x 44 = 1.375us.
       
-    - A loop by using 16bits variable in for loop use about 52 clock cycle which is
-      >1/32Mhz x 52 = 1.625us.
+    - A loop by using 16bits variable in for loop use about 56 clock cycle which is
+      >1/32Mhz x 56 = 1.75us.
       
-    - A loop by using 32bits variable in for loop use about 100 clock cycle which is
-      >1/32Mhz x 100 = 3.125us.
+    - A loop by using 32bits variable in for loop use about 104 clock cycle which is
+      >1/32Mhz x 104 = 3.25us.
 <br/>
 
 ```
-void program_Delay_10us(void);
-void program_Delay(uint16_t delay);
+void program_Delay_1p5us(uint8_t delay);
+void program_Delay_24p25us(uint16_t delay);
 void program_Delay_ms(uint32_t delay);
 ```
 
 ```
-// Delay 10us
-void program_Delay_10us(void) {
-    for(uint8_t i=0; i<10; i++) NOP();
+// Delay x1.5us
+void program_Delay_1p5us(uint8_t delay) {
+    for(uint8_t i=0; i<delay; i++) NOP();
 }
 
-// Delay x10us
-void program_Delay(uint16_t delay) {
-    for(uint16_t i=0; i<delay; i++) program_Delay_10us();
+// Delay x24.25us
+void program_Delay_24p25us(uint16_t delay) {
+    for(uint16_t i=0; i<delay; i++) program_Delay_1p5us(15);
 }
 
 // Delay x1ms
 void program_Delay_ms(uint32_t delay) {
-    for(uint32_t i=0; i<delay; i++) program_Delay(100);
+    for(uint32_t i=0; i<delay; i++) program_Delay_24p25us(41);
 }
 ```
 <br/>
