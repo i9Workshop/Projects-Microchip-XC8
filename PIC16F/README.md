@@ -57,8 +57,8 @@ void program_Delay_10us(void) {
     for(uint8_t i=0; i<8; i++) NOP();
 }
 
-void program_Delay(uint32_t delay) {
-    for(uint8_t i=0; i<delay; i++) program_Delay_10us();
+void program_Delay(uint16_t delay) {
+    for(uint16_t i=0; i<delay; i++) program_Delay_10us();
 }
 ```
 <br/>
