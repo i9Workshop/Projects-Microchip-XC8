@@ -45,8 +45,10 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 * This function will be used in many applications.
 <br/>
 
-* Use NOP( ) instruction in for loop for predictable delay desired duration.
-    - NOP( ) use 4 clock cycle. 
+* Use NOP( ) instruction in for loop instruction for predictable desired delay duration.
+    - NOP( ) use 4 clock cycle which is 1/32Mhz x 4 = 0.125us.
+    - One for loop use about C clock cycle which is 1/32Mhz x C = Dus.
+    - Total duration for a loop is Eus.
 ```
 void programDelay(uint32_t delay) {
     uint32_t i;
