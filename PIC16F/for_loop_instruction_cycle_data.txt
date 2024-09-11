@@ -24,37 +24,37 @@ Target halted. Stopwatch cycle count = 24 (750 ns)			-2 = 22			/2 = 11
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
 Target halted. Stopwatch cycle count = 31 (968.75 ns)			-2 = 29			/2 = 14.5
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 57 (1.78125 µs)			-2 = 55			/2 = 27.5
+Target halted. Stopwatch cycle count = 57 (1.78125 Âµs)			-2 = 55			/2 = 27.5
 
 delay = 3;
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
 Target halted. Stopwatch cycle count = 1 (31.25 ns)
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 36 (1.125 µs)			-3 = 33			/3 = 11
+Target halted. Stopwatch cycle count = 36 (1.125 Âµs)			-3 = 33			/3 = 11
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 46 (1.4375 µs)			-3 = 43			/3 = 14.333
+Target halted. Stopwatch cycle count = 46 (1.4375 Âµs)			-3 = 43			/3 = 14.333
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 82 (2.5625 µs)			-3 = 79			/3 = 26.333
+Target halted. Stopwatch cycle count = 82 (2.5625 Âµs)			-3 = 79			/3 = 26.333
 
 delay = 4;
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
 Target halted. Stopwatch cycle count = 1 (31.25 ns)
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 48 (1.5 µs)			-4 = 44			/4 = 11
+Target halted. Stopwatch cycle count = 48 (1.5 Âµs)			-4 = 44			/4 = 11
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 61 (1.90625 µs)			-4 = 57			/4 = 14.2
+Target halted. Stopwatch cycle count = 61 (1.90625 Âµs)			-4 = 57			/4 = 14.2
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 107 (3.34375 µs)			-4 = 103		/4 = 25.75
+Target halted. Stopwatch cycle count = 107 (3.34375 Âµs)			-4 = 103		/4 = 25.75
 
 delay = 5;
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
 Target halted. Stopwatch cycle count = 1 (31.25 ns)
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 60 (1.875 µs)			-5 = 55			/5 = 11
+Target halted. Stopwatch cycle count = 60 (1.875 Âµs)			-5 = 55			/5 = 11
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 76 (2.375 µs)			-5 = 71			/5 = 14.2
+Target halted. Stopwatch cycle count = 76 (2.375 Âµs)			-5 = 71			/5 = 14.2
 Stopwatch cleared. Stopwatch cycle count = 0 (0 ns)
-Target halted. Stopwatch cycle count = 132 (4.125 µs)			-5 = 127		/5 = 25.4
+Target halted. Stopwatch cycle count = 132 (4.125 Âµs)			-5 = 127		/5 = 25.4
 
 
 Average1	= (10 + 11 + 11 + 11 + 11) /5 = 10.8				= 11		*4 = 44
@@ -62,6 +62,6 @@ Average2	= (12 + 14.5 + 14.333 + 14.2 + 14.2) /5 = 13.8466		= 14		*4 = 56
 Average3	= (24 + 27.5 + 26.333 + 25.75 + 25.4) /5 = 25.7966		= 26		*4 = 104
 
 
-Average1 is using variable of 1byte.
-Average2 is using variable of 2byte.
-Average3 is using variable of 4byte.
+Average1 used variable of 1byte.
+Average2 used variable of 2byte.
+Average3 used variable of 4byte.
