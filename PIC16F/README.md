@@ -42,7 +42,7 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 
 ## 2.  Create Delay Function
 
-* This function will be used in many applications.
+* This function will be used in many applications for this tutorial.
 <br/>
 
 * Use NOP( ) instruction in for loop instruction for predictable desired delay duration.
