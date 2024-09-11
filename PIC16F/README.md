@@ -39,3 +39,7 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 #pragma config WRT = OFF          // Flash memory self-write protection -> off
 ```
 <br/>
+
+## 2.  Create Delay Function
+
+<br/>
