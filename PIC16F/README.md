@@ -7,12 +7,11 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 
 * Hardware selection for desired 32MHz clock system frequency.
     - Crystal oscillator : 8MHz
+<br/>
 
-* Datasheet page 39-70.
 * Configure register.
     - CONFIG1 - Page 40
     - CONFIG1 - Page 42
-    - OSCCON - Page 68
 
 ```
 // Register CONFIG1
