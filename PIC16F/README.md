@@ -42,4 +42,16 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 
 ## 2.  Create Delay Function
 
+* This function will be used in many applications.
+<br/>
+
+* Use NOP() instruction in for loop for predictable delay desired duration.
+    - NOP() use 4 clock cycle. 
+```
+uint32_t i;
+
+for(i=0; i<delay; i++) NOP();
+```
+<br/>
+
 <br/>
