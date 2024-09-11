@@ -25,6 +25,12 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 #pragma config FOSC = HS          // Oscillator selection -> HS, High-speed crystal/resonator connected between OSC1 and OSC2 pins
 
 // Register CONFIG2
-
+#pragma config LVP = ON           // Low-voltage programming -> enabled
+#pragma config DEBUG = OFF        // In-circuit debugger mode on pin ICSPCLK and ICSPDAT -> disabled
+#pragma config BORV = LO          // Brown-out reset voltage selection -> Low trip point selected
+#pragma config STVREN = ON        // Stack overflow reset -> enable
+#pragma config PLLEN = ON         // PLL 4x -> enable
+#pragma config VCAPEN = OFF       // Voltage regulator capacitor function on pin RA6 -> disabled
+#pragma config WRT = OFF          // Flash memory self-write protection -> off
 ```
 <br/>
