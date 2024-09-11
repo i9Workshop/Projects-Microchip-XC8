@@ -8,9 +8,11 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 *  Datasheet page 39-70.
 *  Configure register.
     - CONFIG1 - Page 40
+    - CONFIG1 - Page 42
     - OSCCON - Page 68
 
 ```
+// Register CONFIG1
 #pragma config FCMEN = OFF        // Fail-safe clock monitor -> disable
 #pragma config IESO = OFF         // Internal/External switchover -> disable
 #pragma config CLKOUTEN = ON      // CLKOUT, clock out function on pin -> enable
@@ -21,5 +23,8 @@ Refer to Microchip product [datasheet](https://www.microchip.com/en-us/product/p
 #pragma config PWRTE = OFF        // Power-up timer -> disabled
 #pragma config WDTE = OFF         // Watchdog timer -> disabled
 #pragma config FOSC = HS          // Oscillator selection -> HS, High-speed crystal/resonator connected between OSC1 and OSC2 pins
+
+// Register CONFIG2
+
 ```
 <br/>
